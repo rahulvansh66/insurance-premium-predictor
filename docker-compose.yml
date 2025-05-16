@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  flask-api:
+    build:
+      context: .
+    container_name: insurance_api
+    command: python app/api.py
+    ports:
+      - "5000:5000"
+
+  streamlit-ui:
+    build:
+      context: .
+    container_name: insurance_ui
+    command: streamlit run app/streamlit_app.py
+    ports:
+      - "8501:8501"
+    depends_on:
+      - flask-api
