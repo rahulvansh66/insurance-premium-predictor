@@ -11,8 +11,8 @@ This project aims to analyze and predict insurance premium costs based on demogr
 - **Web Application:** A Flask-based API serves predictions, while a Streamlit-based web app provides an interactive user interface.
 
 To understand more you can check out my blogs:
-[Analysis and Hypothesis Testing of Insurance Premium Costs](https://medium.com/@rahulvansh66/analyzing-insurance-premium-costs-6a9fedbe8b5c)
-[Predicting Insurance Premiums with Machine Learning](https://medium.com/@rahulvansh66/predicting-insurance-premiums-with-machine-learning-cf40234b26f0)
+- [Analysis and Hypothesis Testing of Insurance Premium Costs](https://medium.com/@rahulvansh66/analyzing-insurance-premium-costs-6a9fedbe8b5c)
+- [Predicting Insurance Premiums with Machine Learning](https://medium.com/@rahulvansh66/predicting-insurance-premiums-with-machine-learning-cf40234b26f0)
 
 ## Dataset Overview
 
